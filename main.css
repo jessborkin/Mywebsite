@@ -1,0 +1,230 @@
+#pageone {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-style: unset;
+    border-top-style: double;
+    box-sizing: border-box;
+    padding: 30px;
+}
+body { 
+    background-image: url(https://wallpaperaccess.com/full/254367.png);
+    background-repeat: no-repeat;
+    background-size: 1590px;
+    background-attachment: fixed;
+}
+.header1 {
+    font-size: 70px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    font-size: 10px;
+    color: violet;
+}
+.section1 {
+    color: rgb(255, 255, 255);
+    font-style: unset;
+    text-align: center;
+    font-size: 25px;
+}
+.system {
+    color: rgb(255, 255, 255);
+    font-style: unset;
+    text-align: center;
+    font-size: 25px;
+}
+.text1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+#pagetwo {
+    background-color: rgb(171, 182, 161);
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-style: unset;
+    text-align: center;
+    font-size: 25px;
+}
+.aboutusintro {
+    color: rgb(255, 255, 255);
+    font-style: unset;
+    text-align: center;
+    font-size: 25px;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+#pagethree {
+    background-color: rgb(171, 182, 161);
+}
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+img {
+    height: 120px;
+    width: 120px;
+}
+#iconbox1 {
+    width: 450px;
+    display: flex; 
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+#navbar {
+    display: grid;
+    font-size: 20px;
+}
+div .agent {
+    display: flex;
+    flex-direction: column ;
+}
+.money, .luggage, .aeroplane, .destination, .hotel, .swimming, .agent, .website {
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(211, 250, 255);
+}
+#mainbox{ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pagefour {
+    background-color: rgb(171, 182, 161);
+    font-size: 30px;
+    text-align: center;
+}
+.section3 {
+    color: rgb(255, 255, 255);
+    font-style: unset;
+    text-align: center;
+    font-size: 25px;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 { 
+    color: rgb(2, 2, 2);
+    font-size: 40px;
+}
+h2 {
+    color: rgb(200, 243, 253);
+    font-size: 30px;
+    text-align: center;
+}
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 0px;
+}
+input, textarea {
+    border:0; outline:0;
+    padding: 1em;
+    @include border-radius(8px);
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    @include box-shadow(0 1px 1px rgba(black, 0.1));
+    resize: none;
+    text-align: center;
+}
+#input-Send {
+    color: white; 
+    background-color: tomato;
+    cursor: pointer;
+}
+.emailus, .phoneus, {
+    display: flex ;
+    flex-direction: center;
+    color: rgb(182, 211, 235);
+    font-style: unset;
+    text-align: center;
+    font-size: 25px; 
+}
+.oyster {
+    color: rgb(228, 179, 221);
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.socialbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.aboutus, .learnmore {
+    display: flex ;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-style: unset;
+    text-align: center;
+    font-size: 20px;
+}
+.video {
+    display: flex ;
+}
+.money, .luggage, .aeroplane, .destination, .hotel, .swimming, .agent, .website {
+    display: flex ;
+    flex-direction: row;
+    text-align: center;
+    color: rgb(211, 250, 255);
+}
+.contactus {
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: unset;
+    font-size: 17px;
+}
+#pagefive {
+    background: rgb(160, 202, 236);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#pagesix {
+    background: rgb(160, 202, 236);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#pageseven {
+    background: rgb(160, 202, 236);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#pageeight {
+    background: rgb(160, 202, 236);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#pagenine {
+    background: rgb(160, 202, 236);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#pageten {
+    background: rgb(160, 202, 236);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+}
