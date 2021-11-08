@@ -118,17 +118,11 @@ img {
     height: 120px;
     width: 120px;
 }
-#iconbox1 {
-    width: 400px;
-    display: flex; 
-    flex-wrap: wrap;
-    font-size: 18px;
-}
 #navbar {
     display: grid;
     font-size: 20px;
 }
-div .agent {
+.agent {
     display: flex;
     flex-direction: column ;
 }
@@ -140,7 +134,7 @@ div .agent {
 }
 #mainbox{ 
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -154,10 +148,6 @@ div .agent {
     font-style: unset;
     text-align: center;
     font-size: 25px;
-}
-.flexbox{
-    display: flex;
-    justify-content: space-evenly;
 }
 h1 { 
     color: rgb(2, 2, 2);
@@ -198,12 +188,6 @@ input, textarea {
     text-align: center;
     font-size: 25px; 
 }
-.oyster {
-    color: rgb(5, 5, 5);
-    font-style: italic;
-    text-align: center;
-    font-size: 40px;
-}
 .socialbox {
     display: flex;
     flex-direction: row;
@@ -216,9 +200,6 @@ input, textarea {
     font-style: unset;
     text-align: center;
     font-size: 20px;
-}
-.video {
-    display: flex ;
 }
 .money, .luggage, .aeroplane, .destination, .hotel, .swimming, .agent, .website {
     display: flex ;
@@ -290,7 +271,7 @@ input, textarea {
     background: #78b5e4;
     color: white;
   }
-  .sociallogo {
+.sociallogo {
       display: flex;
       text-align: center;
       height: 10px;
@@ -323,6 +304,38 @@ input, textarea {
     background-color: #04AA6D;
     color: white;
   }
+#testpage{
+    background: rgb(214, 238, 190);
+}
+.container {
+    display: flex; 
+  }
+.containern {
+    display: inline-flex; 
+  }
+.container {
+    flex-direction: column; 
+  }
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.container {
+    justify-content: space-evenly;
+  }
+.oyster {
+    font-size: 50px; 
+    padding: 20px; 
+    border: 2px solid rgb(252, 252, 252); 
+    margin: 10px;"
+}
+.middle-img {
+        font-size: 50px; 
+        padding: 20px; 
+        border: 5px solid rgb(0, 0, 0); 
+        margin: 10px;"
+}
 nav{
     display: flex;
 }
